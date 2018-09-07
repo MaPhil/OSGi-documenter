@@ -1,0 +1,16 @@
+{
+  "name": "osgi-documenter",
+  "version": "1.0.0",
+  "description": "this is a small package to document java projects writen with osgi modeling",
+  "main": "documenter.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "osgi",
+    "java",
+    "documentation"
+  ],
+  "author": "Philipp Mainz",
+  "license": "ISC"
+}
