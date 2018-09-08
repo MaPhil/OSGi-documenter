@@ -1,1 +1,5 @@
 .DS_Store
+source
+document/data/*
+docuemnt/LaTex/*
+document/Markdown/*
