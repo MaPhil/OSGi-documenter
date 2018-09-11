@@ -3,3 +3,4 @@ source
 document/data/*
 docuemnt/LaTex/*
 document/Markdown/*
+config.js
