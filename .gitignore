@@ -3,4 +3,6 @@ source
 document/data/*
 docuemnt/LaTex/*
 document/Markdown/*
+document/PDF/*
 config.js
+node_modules

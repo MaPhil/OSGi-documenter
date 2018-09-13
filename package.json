@@ -12,5 +12,9 @@
     "documentation"
   ],
   "author": "Philipp Mainz",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.6.1",
+    "markdown-pdf": "^9.0.0"
+  }
 }

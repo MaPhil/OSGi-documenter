@@ -4,6 +4,7 @@ const fs = require('fs');
 
 const lib = {
 	create_markdown_document: require('./lib/create-markdown-document'),
+	convert_to_pdf: require('./lib/convert-to-pdf'),
 	extract_bundle_sources: require('./lib/extract-bundle-sources'),
 	extract_bundle_usage: require('./lib/extract-bundle-usage'),
 	extract_java: require('./lib/extract-java'),
@@ -37,4 +38,6 @@ const lib = {
 	fs.writeFileSync(`${__dirname}/document/data/classes.txt`,JSON.stringify(classes,null,2),'utf8');
 
 	lib.create_markdown_document(plugins,lib.config);
+
+	await lib.convert_to_pdf();
 })()
